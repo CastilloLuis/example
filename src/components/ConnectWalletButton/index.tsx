@@ -17,7 +17,7 @@ const ConnectWalletButton = () => {
 
   if (!!address && chain?.id === 10) {
     return (
-      <SC.Button onClick={disconnect}>
+      <SC.Button onClick={() => disconnect()}>
         <span>{shortenAddress(address)} | disconnect</span>
       </SC.Button>
     )

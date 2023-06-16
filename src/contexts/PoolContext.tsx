@@ -1,8 +1,5 @@
 import {createContext, useContext, useEffect, useState} from "react";
 import {readContracts, useAccount} from 'wagmi'
-import {PoolLogicAbi} from "@/web3/abi";
-import axios from "axios";
-import {utils} from "ethers";
 import {Pool, POOLS, usdmnyContract, usdyContract} from "@/web3/pool-config/pools";
 import {formatToken} from "@/web3/utils";
 

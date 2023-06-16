@@ -11,14 +11,14 @@ import {optimism} from "viem/chains";
 const { chains, publicClient } = configureChains(
   [optimism],
   [
-    alchemyProvider({ apiKey: "rT6vtF_SVXYtDX1aoPa95wG2efK62vI_" }),
+    alchemyProvider({ apiKey: process.env.NEXT_PUBLIC_ALCHEMY as string }),
     publicProvider()
   ]
 );
 
 const { connectors } = getDefaultWallets({
   appName: 'My Pool App',
-  projectId: '89833c234c69bb53d52f950e76451c1d',
+  projectId: process.env.NEXT_PUBLIC_WALLET_CONNECT_ID as string,
   chains
 });
 

@@ -13,5 +13,9 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Deployed on Vercel
+## ENV
+```
+NEXT_PUBLIC_ALCHEMY={use your key}
+NEXT_PUBLIC_WALLET_CONNECT_ID={search your id wallet connect app}
+```
 
