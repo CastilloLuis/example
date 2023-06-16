@@ -1,0 +1,7 @@
+{
+  "chainId": 10,
+  "symbol": "USDy",
+  "address": "0x1ec50880101022c11530a069690f5446d1464592",
+  "description":
+  "This USD yield aggregator vault aims to farm Optimism's most lucrative and safe supported stablecoin pool. It will switch farming pools when higher stablecoin yield opportunities arise for long-term performance."
+}
